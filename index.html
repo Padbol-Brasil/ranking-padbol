@@ -1,101 +1,128 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clube de Benefícios - Ranking Padbol</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planos de Assinatura - Padbol</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 font-sans">
-  <!-- Cabeçalho preto -->
-  <header class="bg-black text-white p-6 text-center">
-    <h1 class="text-3xl font-bold">Clube de Benefícios - Ranking Padbol</h1>
-    <p class="mt-2">Mais vantagens, mais desempenho, mais Padbol!</p>
+<body class="bg-gray-100 text-black">
+
+  <!-- Cabeçalho -->
+  <header class="bg-black text-white py-6">
+    <div class="max-w-6xl mx-auto px-4">
+      <h1 class="text-3xl font-bold">Planos de Assinatura Padbol</h1>
+      <p class="text-gray-300 mt-2">Escolha o plano que mais combina com seu jogo</p>
+    </div>
   </header>
 
-  <section class="max-w-5xl mx-auto p-6">
-    <h2 class="text-2xl font-semibold mb-4 text-black">Escolha seu Plano</h2>
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+  <!-- Planos -->
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
       <!-- Bronze -->
-      <div class="bg-white p-4 rounded-lg shadow">
+      <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-xl font-bold text-black">Bronze</h3>
         <p class="text-gray-700">R$ 85/mês (5 meses)</p>
-        <ul class="text-sm mt-2 text-black">
+        <ul class="text-sm mt-4 text-black space-y-1">
           <li>- Acesso ao Ranking</li>
           <li>- Desconto na Padbol Store 10%</li>
           <li>- Camiseta oficial</li>
           <li>- Sorteios mensais de Brindes</li>
-          <li>- 10% Desconto Inscrição Torneio Padbol </li>
+          <li>- 10% Desconto Inscrição Torneio Padbol</li>
           <li>- Desconto de 10% na Avaliação Técnica do Padbol</li>
         </ul>
+        <a href="#" class="mt-4 inline-block bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">
+          Comprar Plano Bronze
+        </a>
       </div>
+
       <!-- Prata -->
-      <div class="bg-white p-4 rounded-lg shadow">
+      <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-xl font-bold text-black">Prata</h3>
         <p class="text-gray-700">R$ 99/mês (5 meses)</p>
-        <ul class="text-sm mt-2 text-black">
+        <ul class="text-sm mt-4 text-black space-y-1">
           <li>- Tudo do Bronze</li>
           <li>- Camiseta oficial</li>
           <li>- 1 Aula mensal gratuita</li>
-          <li>- 15% Desconto Inscrição Torneio Padbol </li>
+          <li>- 15% Desconto Inscrição Torneio Padbol</li>
         </ul>
+        <a href="#" class="mt-4 inline-block bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">
+          Comprar Plano Prata
+        </a>
       </div>
+
       <!-- Ouro -->
-      <div class="bg-white p-4 rounded-lg shadow">
+      <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-xl font-bold text-black">Ouro</h3>
         <p class="text-gray-700">R$ 119/mês (5 meses)</p>
-        <ul class="text-sm mt-2 text-black">
+        <ul class="text-sm mt-4 text-black space-y-1">
           <li>- Tudo do Prata</li>
-          <li>- 2 Aulas mensais gratuita</li>
+          <li>- 2 Aulas mensais gratuitas</li>
           <li>- 1 Avaliação Técnica do Padbol</li>
           <li>- 20% Desconto em Torneios Padbol</li>
         </ul>
+        <a href="#" class="mt-4 inline-block bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">
+          Comprar Plano Ouro
+        </a>
       </div>
+
       <!-- Diamante -->
-      <div class="bg-white p-4 rounded-lg shadow">
+      <div class="bg-white p-6 rounded-lg shadow">
         <h3 class="text-xl font-bold text-black">Diamante</h3>
         <p class="text-gray-700">R$ 149/mês (5 meses)</p>
-        <ul class="text-sm mt-2 text-black">
+        <ul class="text-sm mt-4 text-black space-y-1">
           <li>- Tudo do Ouro</li>
           <li>- 4 Aulas mensais gratuitas</li>
           <li>- 1 Participação no Podcast Canal do VR</li>
           <li>- 25% Desconto em Torneios Padbol</li>
         </ul>
+        <a href="#" class="mt-4 inline-block bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition">
+          Comprar Plano Diamante
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FAQ -->
+  <section class="bg-white py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-black mb-6">Perguntas Frequentes</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold text-black">Como faço o pagamento dos planos?</h3>
+          <p class="text-gray-700">Você será direcionado para um link de pagamento via Pix, cartão ao clicar em "Comprar Plano".</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-black">Posso cancelar minha assinatura?</h3>
+          <p class="text-gray-700">Sim, o cancelamento pode ser feito a qualquer momento, mas os benefícios também são encerrados imediatamente.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-black">As aulas são individuais ou em grupo?</h3>
+          <p class="text-gray-700">As aulas gratuitas dos planos são em grupo, com possibilidade de upgrade para aulas individuais.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-white max-w-5xl mx-auto p-6 mt-6 rounded-lg shadow">
-    <h2 class="text-2xl font-semibold mb-4 text-black">Parceiros Exclusivos</h2>
-    <div class="grid md:grid-cols-3 gap-4 text-sm">
-      <div class="bg-gray-100 p-4 rounded">
-        <h3 class="font-bold text-black">Action Clínica Integrativa</h3>
-        <p class="text-black">10% off em fisioterapia, recovery e treinamento.</p>
-      </div>
-      <div class="bg-gray-100 p-4 rounded">
-        <h3 class="font-bold text-black">Danny Cosméticos</h3>
-        <p class="text-black">Cupom <strong>PADBOL10</strong> para 10% off no site (acima de R$ 69).</p>
-      </div>
-      <div class="bg-gray-100 p-4 rounded">
-        <h3 class="font-bold text-black">Vivace Ótica</h3>
-        <p class="text-black">10% de desconto em óculos.</p>
+  <!-- Depoimentos -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-black mb-6">O que dizem nossos alunos</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-800 italic">"Assinei o plano Ouro e já vi diferença no meu desempenho. As aulas são top e a galera muito unida!"</p>
+          <p class="text-sm text-gray-500 mt-4">— Rafael M., atleta amador</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p class="text-gray-800 italic">"Além dos treinos, o networking e as oportunidades de torneio fizeram valer cada centavo!"</p>
+          <p class="text-sm text-gray-500 mt-4">— Luana S., competidora</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <footer class="text-center text-gray-600 text-sm py-6">
-    <p>© 2025 Ranking Padbol • Desenvolvido para apaixonados pelo esporte</p>
-    <div class="flex justify-center space-x-6 mt-4 text-gray-700">
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/padbolbrasil" target="_blank" aria-label="Instagram" class="hover:text-red-600">
-        <svg class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">...</svg>
-      </a>
-      <!-- WhatsApp -->
-      <a href="https://wa.me/5511986113681" target="_blank" aria-label="WhatsApp" class="hover:text-green-600">
-        <svg class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">...</svg>
-      </a>
-    </div>
-  </footer>
 </body>
 </html>
 
